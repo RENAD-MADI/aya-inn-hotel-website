@@ -1,0 +1,1136 @@
+/* ================= ROOMS PAGE ================= */
+
+/* ================= HERO ================= */
+
+.rooms-hero{
+
+    height:70vh;
+
+    background:url("../images/hero.png") center/cover no-repeat;
+
+    position:relative;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    overflow:hidden;
+
+}
+
+.rooms-overlay{
+
+    position:absolute;
+    inset:0;
+
+    background:rgba(0,0,0,.65);
+
+}
+
+.rooms-hero-content{
+
+    position:relative;
+    z-index:2;
+
+    text-align:center;
+
+    color:white;
+
+    width:90%;
+    max-width:900px;
+
+    animation:fadeUp 1s ease;
+
+}
+
+.rooms-hero-content span{
+
+    color:#c8a97e;
+
+    letter-spacing:4px;
+
+    font-size:14px;
+
+}
+
+.rooms-hero-content h1{
+
+    font-size:85px;
+
+    margin:25px 0;
+
+    font-family:"Playfair Display", serif;
+
+    line-height:1.2;
+
+}
+
+.rooms-hero-content p{
+
+    font-size:20px;
+
+    line-height:2;
+
+    color:#f1f1f1;
+
+}
+
+/* ================= ABOUT ROOMS ================= */
+
+.about-rooms{
+
+    padding:130px 0;
+
+    background:#f7f5f2;
+
+    overflow:hidden;
+
+}
+
+.about-rooms-container{
+
+    display:grid;
+
+    grid-template-columns:1.1fr 1fr;
+
+    gap:100px;
+
+    align-items:center;
+
+}
+
+/* images */
+
+.about-rooms-images{
+
+    position:relative;
+
+    min-height:720px;
+
+}
+
+.main-room-image{
+
+    width:72%;
+    height:670px;
+
+    overflow:hidden;
+
+    border-radius:90px 0 90px 0;
+
+    box-shadow:0 20px 60px rgba(0,0,0,.15);
+
+    position:relative;
+
+}
+
+.main-room-image img{
+
+    width:100%;
+    height:100%;
+
+    object-fit:cover;
+
+
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 8px; /* اختياري */
+
+
+    transition:1s;
+
+}
+
+.main-room-image:hover img{
+
+    transform:scale(1.08);
+
+}
+
+/* small images */
+
+.small-room-image{
+
+    position:absolute;
+
+    width:45%;
+    height:290px;
+
+    overflow:hidden;
+
+    border-radius:50px;
+
+    box-shadow:0 15px 40px rgba(0,0,0,.15);
+
+}
+
+.small-room-image img{
+
+    width:100%;
+    height:100%;
+
+    object-fit:cover;
+
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 8px; /* اختياري */
+
+    transition:1s;
+
+}
+
+.small-room-image:hover img{
+
+    transform:scale(1.08);
+
+}
+
+.top-image{
+
+    top:0;
+    left:0;
+
+}
+
+.bottom-image{
+
+    bottom:0;
+    left:0;
+
+}
+
+/* floating badge */
+
+.floating-badge{
+
+    position:absolute;
+
+    top:50%;
+    left:42%;
+
+    transform:translate(-50%,-50%);
+
+    width:150px;
+    height:150px;
+
+    border-radius:50%;
+
+    background:#24343b;
+
+    color:white;
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+    justify-content:center;
+
+    gap:12px;
+
+    border:8px solid white;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.2);
+
+    z-index:5;
+
+}
+
+.floating-badge i{
+
+    font-size:38px;
+
+    color:#c8a97e;
+
+}
+
+.floating-badge span{
+
+    font-size:15px;
+
+    letter-spacing:2px;
+
+}
+
+/* content */
+
+.section-subtitle{
+
+    color:#c8a97e;
+
+    letter-spacing:3px;
+
+    font-size:15px;
+
+}
+
+.about-rooms-content h2{
+
+    font-size:70px;
+
+    line-height:1.2;
+
+    margin:25px 0;
+
+    color:#111;
+
+    font-family:"Playfair Display", serif;
+
+}
+
+.about-rooms-content p{
+
+    line-height:2.3;
+
+    color:#666;
+
+    margin-bottom:45px;
+
+    font-size:17px;
+
+}
+
+/* features */
+
+.room-features{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:25px;
+
+    margin-bottom:50px;
+
+}
+
+.room-feature{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+
+    font-size:18px;
+
+    color:#111;
+
+}
+
+.room-feature i{
+
+    width:60px;
+    height:60px;
+
+    background:white;
+
+    border-radius:50%;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    color:#c8a97e;
+
+    font-size:22px;
+
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+
+}
+
+/* ================= LUXURY ROOMS ================= */
+
+.luxury-rooms-section{
+
+    padding:130px 0;
+
+    background:white;
+
+}
+
+.luxury-rooms-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:40px;
+
+    margin-top:70px;
+
+}
+
+.luxury-room-card{
+
+    background:white;
+
+    border-radius:30px;
+
+    overflow:hidden;
+
+    box-shadow:0 15px 45px rgba(0,0,0,.08);
+
+    transition:.5s;
+
+    position:relative;
+
+}
+
+.luxury-room-card:hover{
+
+    transform:translateY(-12px);
+
+    box-shadow:0 30px 70px rgba(0,0,0,.15);
+
+}
+
+.luxury-room-image{
+
+    position:relative;
+
+    overflow:hidden;
+
+    height:360px;
+
+}
+
+.luxury-room-image img{
+
+    width:100%;
+    height:100%;
+
+    object-fit:cover;
+
+    transition:1s;
+
+}
+
+.luxury-room-card:hover img{
+
+    transform:scale(1.08);
+
+}
+
+/* overlay */
+
+.luxury-room-image::before{
+
+    content:"";
+
+    position:absolute;
+    inset:0;
+
+    background:linear-gradient(
+        to top,
+        rgba(0,0,0,.55),
+        transparent
+    );
+
+    z-index:1;
+
+}
+
+/* price */
+
+.room-price{
+
+    position:absolute;
+
+    top:25px;
+    left:25px;
+
+    background:#c8a97e;
+
+    color:white;
+
+    padding:12px 22px;
+
+    border-radius:50px;
+
+    font-size:14px;
+
+    z-index:3;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.2);
+
+}
+
+/* content */
+
+.luxury-room-content{
+
+    padding:38px;
+
+}
+
+.room-top-info{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:22px;
+
+}
+
+.room-top-info h3{
+
+    font-size:32px;
+
+    color:#111;
+
+    font-family:"Playfair Display", serif;
+
+}
+
+.room-rating{
+
+    background:#f7f5f2;
+
+    padding:10px 18px;
+
+    border-radius:50px;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:8px;
+
+    color:#c8a97e;
+
+    font-weight:700;
+
+}
+
+.luxury-room-content p{
+
+    line-height:2.1;
+
+    color:#666;
+
+    margin-bottom:35px;
+
+    font-size:16px;
+
+}
+
+/* features */
+
+.luxury-room-features{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:15px;
+
+    margin-bottom:35px;
+
+}
+
+.luxury-room-features span{
+
+    background:#f7f5f2;
+
+    padding:12px 18px;
+
+    border-radius:50px;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    font-size:14px;
+
+}
+
+.luxury-room-features i{
+
+    color:#c8a97e;
+
+}
+
+/* buttons */
+
+.room-buttons{
+
+    display:flex;
+
+    gap:15px;
+
+}
+
+.room-details-btn{
+
+    padding:16px 30px;
+
+    border:1px solid #ddd;
+
+    color:#111;
+
+    transition:.3s;
+
+    font-weight:600;
+
+}
+
+.room-details-btn:hover{
+
+    background:#111;
+
+    color:white;
+
+}
+
+/* ================= BANNER ================= */
+
+.luxury-banner{
+
+    height:520px;
+
+    background:url("../images/Jeddah7.jpg") center/cover no-repeat;
+
+    position:relative;
+
+    display:flex;
+
+    align-items:center;
+    justify-content:center;
+
+    text-align:center;
+
+    overflow:hidden;
+
+}
+
+.luxury-banner-overlay{
+
+    position:absolute;
+    inset:0;
+
+    background:rgba(0,0,0,.65);
+
+}
+
+.luxury-banner-content{
+
+    position:relative;
+    z-index:2;
+
+    color:white;
+
+    width:90%;
+    max-width:850px;
+
+}
+
+.luxury-banner-content span{
+
+    color:#c8a97e;
+
+    letter-spacing:4px;
+
+}
+
+.luxury-banner-content h2{
+
+    font-size:70px;
+
+    margin:30px 0;
+
+    font-family:"Playfair Display", serif;
+
+    line-height:1.3;
+
+}
+
+.luxury-banner-content p{
+
+    font-size:18px;
+
+    line-height:2;
+
+}
+
+/* ================= BOOKING ================= */
+
+.booking-section{
+
+    padding:130px 0;
+
+    background:#f7f5f2;
+
+}
+
+.booking-container{
+
+    display:grid;
+
+    grid-template-columns:1fr 520px;
+
+    gap:90px;
+
+    align-items:center;
+
+}
+
+.booking-content h2{
+
+    font-size:65px;
+
+    margin:25px 0;
+
+    line-height:1.3;
+
+    font-family:"Playfair Display", serif;
+
+}
+
+.booking-content p{
+
+    line-height:2.3;
+
+    color:#666;
+
+    margin-bottom:45px;
+
+    font-size:17px;
+
+}
+
+/* features */
+
+.booking-features{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:22px;
+
+}
+
+.booking-feature{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+
+    font-size:18px;
+
+}
+
+.booking-feature i{
+
+    width:42px;
+    height:42px;
+
+    background:#c8a97e;
+
+    color:white;
+
+    border-radius:50%;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+}
+
+/* booking box */
+
+.booking-box{
+
+    background:white;
+
+    padding:55px;
+
+    border-radius:35px;
+
+    box-shadow:0 20px 60px rgba(0,0,0,.08);
+
+    position:relative;
+
+}
+
+.booking-box::before{
+
+    content:"";
+
+    position:absolute;
+
+    top:-15px;
+    left:-15px;
+
+    width:100%;
+    height:100%;
+
+    border:1px solid rgba(200,169,126,.3);
+
+    border-radius:35px;
+
+}
+
+.booking-box h3{
+
+    font-size:38px;
+
+    margin-bottom:35px;
+
+    position:relative;
+    z-index:2;
+
+}
+
+.booking-input{
+
+    margin-bottom:25px;
+
+    position:relative;
+    z-index:2;
+
+}
+
+.booking-input label{
+
+    display:block;
+
+    margin-bottom:12px;
+
+    font-weight:600;
+
+    color:#111;
+
+}
+
+.booking-input input,
+.booking-input select{
+
+    width:100%;
+
+    height:62px;
+
+    border:1px solid #ddd;
+
+    padding:0 20px;
+
+    font-family:"Cairo", sans-serif;
+
+    outline:none;
+
+    transition:.3s;
+
+    background:#fff;
+
+}
+
+.booking-input input:focus,
+.booking-input select:focus{
+
+    border-color:#c8a97e;
+
+}
+
+/* submit */
+
+.booking-submit{
+
+    width:100%;
+
+    height:62px;
+
+    background:#c8a97e;
+
+    color:white;
+
+    display:flex;
+
+    align-items:center;
+    justify-content:center;
+
+    margin-top:25px;
+
+    transition:.3s;
+
+    font-weight:700;
+
+    position:relative;
+    z-index:2;
+
+}
+
+.booking-submit:hover{
+
+    background:#111;
+
+}
+
+/* ================= ACTIVE LINK ================= */
+
+.nav-links .active{
+
+    color:#c8a97e;
+
+    position:relative;
+
+}
+
+.nav-links .active::after{
+
+    content:"";
+
+    position:absolute;
+
+    right:0;
+    bottom:-8px;
+
+    width:100%;
+    height:2px;
+
+    background:#c8a97e;
+
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media(max-width:1200px){
+
+    .luxury-rooms-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
+
+@media(max-width:992px){
+
+    .about-rooms-container,
+    .booking-container{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .about-rooms-content h2,
+    .booking-content h2{
+
+        font-size:48px;
+
+    }
+
+    .luxury-banner-content h2{
+
+        font-size:50px;
+
+    }
+
+    .rooms-hero-content h1{
+
+        font-size:55px;
+
+    }
+
+}
+
+@media(max-width:768px){
+
+    .rooms-hero{
+
+        height:60vh;
+
+    }
+
+    .rooms-hero-content h1{
+
+        font-size:42px;
+
+    }
+
+    .rooms-hero-content p{
+
+        font-size:16px;
+
+    }
+
+    .about-rooms{
+
+        padding:90px 0;
+
+    }
+
+    .about-rooms-images{
+
+        min-height:auto;
+
+    }
+
+    .main-room-image{
+
+        width:100%;
+        height:450px;
+
+    }
+
+    .small-room-image{
+
+        display:none;
+
+    }
+
+    .floating-badge{
+
+        width:120px;
+        height:120px;
+
+        left:50%;
+
+    }
+
+    .about-rooms-content h2{
+
+        font-size:38px;
+
+    }
+
+    .room-features{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .room-buttons{
+
+        flex-direction:column;
+
+    }
+
+    .luxury-banner-content h2{
+
+        font-size:38px;
+
+    }
+
+    .booking-content h2{
+
+        font-size:38px;
+
+    }
+
+    .booking-box{
+
+        padding:35px;
+
+    }
+
+}
+
+.special-card{
+
+    border:2px solid rgba(200,169,126,.25);
+
+    background:#fffdf9;
+
+}
+
+.special-card .room-price{
+
+    background:#24343b;
+
+}
+
+/* ================= ROOM SLIDER ================= */
+
+.room-slider{
+
+    position:relative;
+
+    overflow:hidden;
+
+    height:380px;
+
+}
+
+.room-slides{
+
+    display:flex;
+
+    width:100%;
+
+    height:100%;
+
+    animation:roomSlider 18s infinite;
+
+}
+
+.room-slides img{
+
+    width:100%;
+
+    min-width:100%;
+
+    height:100%;
+
+    object-fit:cover;
+
+}
+
+/* animation */
+
+@keyframes roomSlider{
+
+    0%{
+        transform:translateX(0);
+    }
+
+    20%{
+        transform:translateX(0);
+    }
+
+    25%{
+        transform:translateX(100%);
+    }
+
+    45%{
+        transform:translateX(100%);
+    }
+
+    50%{
+        transform:translateX(200%);
+    }
+
+    70%{
+        transform:translateX(200%);
+    }
+
+    75%{
+        transform:translateX(300%);
+    }
+
+    100%{
+        transform:translateX(300%);
+    }
+
+}
+
+/* remove details button spacing */
+
+.room-buttons{
+
+    justify-content:flex-start;
+
+}
+
+/* remove old image */
+
+.luxury-room-image{
+
+    display:none;
+
+}

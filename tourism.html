@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title data-i18n="tourism.title">
+        أهم المعالم السياحية | آيا إن
+    </title>
+
+    <!-- GOOGLE FONTS -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- FONT AWESOME -->
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- CSS -->
+
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/room.css">
+    <link rel="stylesheet" href="CSS/responsive.css">
+    <link rel="stylesheet" href="CSS/rtl.css">
+    <link rel="stylesheet" href="CSS/animations.css">
+
+
+</head>
+
+<body>
+     <!-- ================= HEADER ================= -->
+
+    <header class="header">
+
+        <div class="top-bar">
+
+            <div class="container top-bar-content">
+
+                <div class="top-left">
+
+                    <span>
+
+                        <i class="fa-solid fa-phone"></i>
+
+                       966551554715
+
+                    </span>
+
+                    <span data-i18n="common.topbar.location">
+
+                        <i class="fa-solid fa-location-dot"></i>
+
+                        جدة - المملكة العربية السعودية
+
+                    </span>
+
+                </div>
+
+                <div class="top-right">
+
+                    <button id="language-btn">
+
+                        English
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- NAVBAR -->
+
+        <nav class="navbar">
+
+            <div class="container nav-content">
+
+                <!-- LOGO -->
+
+                <a href="index.html" class="logo">
+
+                    <img src="images/logo.png" alt="AYA INN">
+
+                </a>
+
+                <!-- LINKS -->
+
+                <ul class="nav-links">
+
+                    <li>
+                        <a href="index.html" data-i18n="common.nav.home">
+                            الرئيسية
+                        </a>
+                    </li>
+
+
+                    <li>
+                         <a href="index.html#about" data-i18n="common.nav.about">
+                          من نحن
+                        </a>
+                    </li>
+
+
+                    <li>
+                        <a href="rooms.html" data-i18n="common.nav.rooms">
+                            الغرف والأجنحة
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="tourism.html" class="active" data-i18n="common.nav.tourism">
+                            أهم المعالم السياحية
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="blog.html" data-i18n="common.nav.blog">
+                            المدونة
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="contact.html" data-i18n="common.nav.contact">
+                            تواصل معنا
+                        </a>
+                    </li>
+
+                </ul>
+
+                <!-- BUTTON -->
+
+                <a href="https://www.booking.com/Share-9JC5aL" class="book-btn" target="_blank" rel="noopener noreferrer" data-i18n="common.book_now">
+                     احجز الآن
+                </a>
+
+                <!-- MOBILE -->
+
+                 <!-- MOBILE MENU BUTTON -->
+
+                <div class="menu-toggle" id="menu-toggle">
+
+                     <i class="fa-solid fa-bars"></i>
+
+                </div>
+            </div>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+    <!-- ================= HERO ================= -->
+
+    <section class="tourism-hero">
+
+        <div class="tourism-overlay"></div>
+
+        <div class="tourism-hero-content">
+
+            <span>
+                JEDDAH TOURISM
+            </span>
+
+            <h1 data-i18n="tourism.hero.title">
+                أهم المعالم السياحية في جدة
+            </h1>
+
+            <p data-i18n="tourism.hero.desc">
+                اكتشف أجمل الوجهات والمعالم السياحية
+                القريبة من آيا إن للشقق المخدومة
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- ================= TOURISM CARDS ================= -->
+
+    <section class="tourism-page">
+
+        <div class="container">
+
+            <!-- الواجهة البحرية -->
+
+            <div class="tourism-card">
+
+                <div class="tourism-image">
+                    <img src="images/Tourist attractions/Waterfront.jpg" alt="">
+                </div>
+
+                <div class="tourism-content">
+
+                    <h2 data-i18n="tourism.card1.title">
+                        الواجهة البحرية
+                    </h2>
+
+                    <p data-i18n="tourism.card1.desc">
+                        تُعد الواجهة البحرية الجديدة من أشهر
+                        الوجهات السياحية والترفيهية في جدة،
+                        حيث تمتد على مساحة كبيرة مطلة على
+                        البحر الأحمر وتضم ممشى طويلًا،
+                        مناطق خضراء، جلسات عائلية،
+                        مطاعم ومقاهي متنوعة.
+                    </p>
+
+                    <a href="https://maps.google.com/?q=Jeddah+Waterfront+Harbor&utm_source=chatgpt.com"
+                        target="_blank">
+
+                        <i class="fa-solid fa-location-dot"></i>
+
+                        <span data-i18n="common.view_on_map">عرض الموقع على الخريطة</span>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- البلد -->
+
+            <div class="tourism-card reverse">
+
+                <div class="tourism-image">
+                    <img src="images/Tourist attractions/The country.jpg" alt="">
+                </div>
+
+                <div class="tourism-content">
+
+                    <h2 data-i18n="tourism.card2.title">
+                        البلد
+                    </h2>
+
+                    <p data-i18n="tourism.card2.desc">
+                        تُعرف منطقة البلد بأنها القلب التاريخي
+                        لمدينة جدة، وتتميز بأزقتها القديمة
+                        وبيوتها الحجازية التقليدية ذات
+                        الرواشين الخشبية الشهيرة.
+                    </p>
+
+                    <a href="https://maps.google.com/?q=Jeddah+Historic+District+Al+Balad&utm_source=chatgpt.com"
+                        target="_blank">
+
+                        <i class="fa-solid fa-location-dot"></i>
+
+                        <span data-i18n="common.view_on_map">عرض الموقع على الخريطة</span>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- نافورة الملك فهد -->
+
+            <div class="tourism-card">
+
+                <div class="tourism-image">
+                    <img src="images/Tourist attractions/King Fahd Fountain.jpg" alt="">
+                </div>
+
+                <div class="tourism-content">
+
+                    <h2 data-i18n="tourism.card3.title">
+                        نافورة الملك فهد
+                    </h2>
+
+                    <p data-i18n="tourism.card3.desc">
+                        تُعتبر نافورة الملك فهد من أشهر رموز جدة
+                        وأعلى نافورة مياه في العالم،
+                        حيث يصل ارتفاع ضخ المياه فيها
+                        إلى أكثر من 300 متر.
+                    </p>
+
+                    <a href="https://maps.google.com/?q=King+Fahad+Fountain+Jeddah&utm_source=chatgpt.com"
+                        target="_blank">
+
+                        <i class="fa-solid fa-location-dot"></i>
+
+                        <span data-i18n="common.view_on_map">عرض الموقع على الخريطة</span>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- مسجد الرحمة -->
+
+            <div class="tourism-card reverse">
+
+                <div class="tourism-image">
+                    <img src="images/Tourist attractions/Al-Rahma Mosque.jpg" alt="">
+                </div>
+
+                <div class="tourism-content">
+
+                    <h2 data-i18n="tourism.card4.title">
+                        مسجد الرحمة
+                    </h2>
+
+                    <p data-i18n="tourism.card4.desc">
+                        يُعرف مسجد الرحمة باسم المسجد العائم،
+                        لأنه بُني فوق سطح البحر الأحمر
+                        ويتميز بإطلالة هادئة وتصميم إسلامي رائع.
+                    </p>
+
+                    <a href="https://maps.google.com/?q=Al+Rahma+Mosque+Jeddah&utm_source=chatgpt.com"
+                        target="_blank">
+
+                        <i class="fa-solid fa-location-dot"></i>
+
+                        <span data-i18n="common.view_on_map">عرض الموقع على الخريطة</span>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- فقيه أكواريوم -->
+
+            <div class="tourism-card">
+
+                <div class="tourism-image">
+                    <img src="images/Tourist attractions/Aquarium jurist.jpg" alt="">
+                </div>
+
+                <div class="tourism-content">
+
+                    <h2 data-i18n="tourism.card5.title">
+                        فقيه أكواريوم
+                    </h2>
+
+                    <p data-i18n="tourism.card5.desc">
+                        يُعتبر فقيه أكواريوم من أفضل الأماكن
+                        الترفيهية للعائلات والأطفال،
+                        ويضم أنواعًا متعددة من الكائنات البحرية
+                        وعروض الدلافين الممتعة.
+                    </p>
+
+                    <a href="https://maps.google.com/?q=Fakieh+Aquarium+Jeddah&utm_source=chatgpt.com"
+                        target="_blank">
+
+                        <i class="fa-solid fa-location-dot"></i>
+
+                        <span data-i18n="common.view_on_map">عرض الموقع على الخريطة</span>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- باب مكة -->
+
+            <div class="tourism-card reverse">
+
+                <div class="tourism-image">
+                    <img src="images/Tourist attractions/Mecca Gate.jpg" alt="">
+                </div>
+
+                <div class="tourism-content">
+
+                    <h2 data-i18n="tourism.card6.title">
+                        باب مكة
+                    </h2>
+
+                    <p data-i18n="tourism.card6.desc">
+                        باب مكة أحد الأبواب التاريخية القديمة
+                        التي كانت تحيط بمدينة جدة،
+                        ويُعد اليوم من أهم المعالم التراثية
+                        في جدة التاريخية.
+                    </p>
+
+                    <a href="https://maps.google.com/?q=Bab+Makkah+Jeddah&utm_source=chatgpt.com"
+                        target="_blank">
+
+                        <i class="fa-solid fa-location-dot"></i>
+
+                        <span data-i18n="common.view_on_map">عرض الموقع على الخريطة</span>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- أبحر -->
+
+            <div class="tourism-card">
+
+                <div class="tourism-image">
+                    <img src="images/Tourist attractions/Abhar area.jpg" alt="">
+                </div>
+
+                <div class="tourism-content">
+
+                    <h2 data-i18n="tourism.card7.title">
+                        منطقة أبحر
+                    </h2>
+
+                    <p data-i18n="tourism.card7.desc">
+                        منطقة أبحر تُعتبر من أجمل المناطق
+                        الساحلية شمال جدة،
+                        وتشتهر بالشواطئ الخاصة
+                        والأنشطة البحرية والمنتجعات الفاخرة.
+                    </p>
+
+                    <a href="https://maps.google.com/?q=Corniche+Obhur+Jeddah&utm_source=chatgpt.com"
+                        target="_blank">
+
+                        <i class="fa-solid fa-location-dot"></i>
+
+                        <span data-i18n="common.view_on_map">عرض الموقع على الخريطة</span>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- متحف الطيبات -->
+
+            <div class="tourism-card reverse">
+
+                <div class="tourism-image">
+                    <img src="images/Tourist attractions/Goodies Museum.jpg" alt="">
+                </div>
+
+                <div class="tourism-content">
+
+                    <h2 data-i18n="tourism.card8.title">
+                        متحف الطيبات
+                    </h2>
+
+                    <p data-i18n="tourism.card8.desc">
+                        يُعد متحف الطيبات من أهم المتاحف
+                        في جدة ويعرض التراث الإسلامي
+                        والحضارات القديمة بأسلوب مميز.
+                    </p>
+
+                    <a href="https://maps.google.com/?q=Tayebat+Museum+Jeddah&utm_source=chatgpt.com"
+                        target="_blank">
+
+                        <i class="fa-solid fa-location-dot"></i>
+
+                        <span data-i18n="common.view_on_map">عرض الموقع على الخريطة</span>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+      <footer class="footer">
+
+        <div class="container footer-container">
+
+            <div class="footer-box">
+
+                <img src="images/logo.png"
+                    class="footer-logo">
+
+                <p data-i18n="common.footer.about_text">
+
+                    آيا إن للشقق المخدومة
+                    تجربة إقامة راقية
+                    في قلب جدة.
+
+                </p>
+
+            </div>
+
+            <div class="footer-box">
+
+                <h3 data-i18n="common.footer.quick_links">
+                    روابط سريعة
+                </h3>
+
+                <ul>
+
+                    <li>
+                        <a href="index.html" data-i18n="common.nav.home">
+                            الرئيسية
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="rooms.html" data-i18n="common.footer.rooms">
+                            الغرف والأجنحة
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="tourism.html" data-i18n="common.footer.tourism">
+                            المعالم السياحية
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="contact.html" data-i18n="common.nav.contact">
+                            تواصل معنا
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+            <div class="footer-box">
+
+                <h3 data-i18n="common.footer.contact_title">
+                    تواصل معنا
+                </h3>
+
+                <p>
+                   +966551554715
+                </p>
+
+                <p>
+                    aya@ayainn.com
+                </p>
+
+                <p data-i18n="common.footer.address">
+                    جدة - السعودية
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="footer-bottom" data-i18n="common.footer.rights">
+
+            جميع الحقوق محفوظة © آيا إن للشقق المخدومة
+
+        </div>
+
+    </footer>
+
+    <!-- JS -->
+
+    <script src="JS/main.js"></script>
+    <script src="JS/language.js"></script>
+
+</body>
+
+</html>

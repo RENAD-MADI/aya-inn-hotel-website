@@ -1,0 +1,169 @@
+@media(max-width: 992px){
+
+    .nav-links{
+        display:none;
+    }
+
+    .menu-toggle{
+        display:block;
+    }
+
+    .hero h1{
+        font-size:50px;
+    }
+
+    .about-container,
+    .rooms-grid,
+    .services-grid,
+    .tourism-grid,
+    .footer-container{
+        grid-template-columns:1fr;
+    }
+
+    .hero-content{
+        width:100%;
+        padding:0 30px;
+    }
+
+}
+
+@media(max-width: 768px){
+
+    .top-left{
+        flex-direction:column;
+        gap:10px;
+    }
+
+    .hero{
+        height:90vh;
+    }
+
+    .hero h1{
+        font-size:38px;
+    }
+
+    .hero-buttons{
+        flex-direction:column;
+    }
+
+    .section-title h2{
+        font-size:32px;
+    }
+
+}
+
+/* tourism */
+
+@media(max-width:992px){
+
+    .tourism-card{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .reverse .tourism-image,
+    .reverse .tourism-content{
+
+        order:unset;
+
+    }
+
+    .tourism-image img{
+
+        height:350px;
+
+    }
+
+    .tourism-hero-content h1{
+
+        font-size:40px;
+
+    }
+
+}
+/* tourism home */
+
+@media(max-width:1200px){
+
+    .tourism-grid{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+}
+
+@media(max-width:768px){
+
+    .tourism-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
+
+/* rooms responsive */
+
+@media(max-width:1200px){
+
+    .luxury-rooms-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
+
+@media(max-width:992px){
+
+    .about-rooms-container,
+    .booking-container{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .about-rooms-content h2,
+    .booking-content h2{
+
+        font-size:45px;
+
+    }
+
+    .luxury-banner-content h2{
+
+        font-size:45px;
+
+    }
+
+}
+
+@media(max-width:768px){
+
+    .rooms-hero-content h1{
+
+        font-size:45px;
+
+    }
+
+    .room-features{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .room-buttons{
+
+        flex-direction:column;
+
+    }
+
+    .booking-box{
+
+        padding:30px;
+
+    }
+
+}

@@ -1,0 +1,348 @@
+{
+  "common": {
+    "nav": {
+      "home": "Home",
+      "about": "About Us",
+      "rooms": "Rooms & Suites",
+      "tourism": "Top Attractions",
+      "blog": "Blog",
+      "contact": "Contact Us"
+    },
+    "topbar": {
+      "location": "Jeddah - Saudi Arabia"
+    },
+    "book_now": "Book Now",
+    "view_details": "View Details",
+    "view_on_map": "View on Map",
+    "footer": {
+      "about_text": "AYA INN Serviced Apartments, an elegant stay experience in the heart of Jeddah.",
+      "quick_links": "Quick Links",
+      "rooms": "Rooms & Suites",
+      "tourism": "Attractions",
+      "contact_title": "Contact Us",
+      "address": "Jeddah - Saudi Arabia",
+      "rights": "All rights reserved © AYA INN Serviced Apartments"
+    }
+  },
+  "index": {
+    "title": "AYA INN Serviced Apartments",
+    "hero": {
+      "title": "A luxurious stay… <br> comfort that feels like home",
+      "desc": "Welcome to AYA INN Serviced Apartments, where comfort, privacy and premium services meet in the heart of Jeddah.",
+      "explore": "Explore Rooms"
+    },
+    "about": {
+      "subtitle": "About Us",
+      "title": "A stay experience that combines comfort and luxury",
+      "desc": "At AYA INN Serviced Apartments we offer an exceptional stay experience combining comfort, privacy and integrated services, with a strategic location in Jeddah that provides quick access to the city's most important destinations and attractions.",
+      "feature1": "Strategic Location",
+      "feature2": "Comfort & Privacy",
+      "feature3": "Professional Service",
+      "feature4": "24/7 Support",
+      "more": "Discover More"
+    },
+    "rooms": {
+      "subtitle": "Rooms & Suites",
+      "title": "Choose Your Perfect Stay",
+      "main": {
+        "tag": "Most Popular",
+        "title": "Royal Executive Suite",
+        "desc": "A luxurious suite with spacious areas and elegant design, featuring two bedrooms, a large living room, a fully equipped kitchen and a dining table for an exceptional stay experience.",
+        "feature1": "Two Bedrooms",
+        "feature2": "Spacious Living Room",
+        "feature3": "Equipped Kitchen",
+        "feature4": "Free Wi-Fi",
+        "cta": "View All Rooms"
+      },
+      "superior": {
+        "title": "Superior Suite"
+      },
+      "family": {
+        "title": "Family Suite"
+      }
+    },
+    "services": {
+      "subtitle": "Services & Facilities",
+      "title": "Services Designed for Your Comfort",
+      "wifi": {
+        "title": "Free Wi-Fi",
+        "desc": "Fast, free connection throughout all hotel facilities."
+      },
+      "parking": {
+        "title": "Free Parking",
+        "desc": "Comfortable and secure parking for hotel guests."
+      },
+      "security": {
+        "title": "Security Systems",
+        "desc": "Security systems to ensure your safety and comfort throughout your stay."
+      },
+      "cleaning": {
+        "title": "Daily Cleaning",
+        "desc": "Daily room care to ensure the highest levels of comfort."
+      },
+      "tv": {
+        "title": "Smart Screens",
+        "desc": "Modern screens with various entertainment apps."
+      },
+      "support": {
+        "title": "Customer Service",
+        "desc": "A dedicated support team to meet all your needs"
+      }
+    },
+    "booking": {
+      "subtitle": "Book Now",
+      "title": "Book Your Stay with Ease",
+      "desc": "You can book directly through the Booking platform and enjoy the best prices and hotel services.",
+      "feature1": "Instant Booking Confirmation",
+      "feature2": "Best Prices",
+      "feature3": "24/7 Support",
+      "form_title": "Booking Details",
+      "checkin": "Check-in Date",
+      "checkout": "Check-out Date",
+      "guests": "Number of Guests",
+      "guest1": "1 Person",
+      "guest2": "2 People",
+      "guest3": "3 People",
+      "guest4": "4 People",
+      "submit": "Continue Booking via Booking"
+    },
+    "tourism": {
+      "subtitle": "Top Attractions",
+      "title": "Discover the most beautiful attractions in Jeddah near AYA INN Serviced Apartments",
+      "card1": {
+        "title": "Obhur Area",
+        "desc": "Enjoy the most beautiful sea views and entertainment activities."
+      },
+      "card2": {
+        "title": "Historic Jeddah",
+        "desc": "Discover the charm of Hijazi heritage and old markets."
+      },
+      "card3": {
+        "title": "Al-Rahma Mosque",
+        "desc": "The floating mosque with a charming view of the Red Sea."
+      },
+      "card4": {
+        "title": "King Fahd Fountain",
+        "desc": "One of Jeddah's most famous landmarks and the tallest fountain in the world."
+      }
+    },
+    "cta": {
+      "title": "Book Your Stay Now",
+      "desc": "Enjoy a luxurious stay and integrated services in a prime location in Jeddah.",
+      "contact": "Contact Us"
+    }
+  },
+  "rooms": {
+    "title": "Rooms & Suites | AYA INN",
+    "hero": {
+      "title": "Rooms & Suites",
+      "desc": "Enjoy a refined stay that combines comfort, luxury and integrated services"
+    },
+    "about": {
+      "subtitle": "An Elegant Stay",
+      "title": "A Stay That Combines Comfort and Luxury",
+      "desc": "We offer you a variety of rooms and suites carefully designed to give you a luxurious stay experience that combines tranquility, elegance and integrated services.",
+      "feature1": "Comfortable Hotel Beds",
+      "feature2": "Equipped Kitchen",
+      "feature3": "Smart TV",
+      "feature4": "Free Wi-Fi"
+    },
+    "deluxe": {
+      "title": "Deluxe Single Room",
+      "desc": "An elegant, modern room designed to provide maximum comfort, featuring a comfortable bed, smart TV, private bathroom, and a fully equipped kitchen.",
+      "feature1": "Luxury Bed",
+      "feature2": "Smart TV",
+      "feature3": "Equipped Kitchen",
+      "feature4": "Free Wi-Fi"
+    },
+    "superior": {
+      "desc": "An elegant suite featuring a bedroom and comfortable living room, plus a fully equipped kitchen and a modern design that gives you a luxurious stay experience.",
+      "feature1": "Living Room",
+      "feature2": "Equipped Kitchen",
+      "feature3": "Smart Screen",
+      "feature4": "Free Internet"
+    },
+    "family": {
+      "desc": "A spacious suite suitable for families, featuring two bedrooms, an elegant living room, a fully equipped kitchen, and integrated services for a comfortable stay.",
+      "feature1": "Family Friendly",
+      "feature2": "Two Bedrooms",
+      "feature3": "Equipped Kitchen",
+      "feature4": "Free Wi-Fi"
+    },
+    "royal": {
+      "desc": "A luxurious suite with spacious areas and elegant design, featuring two bedrooms, a large living room, a fully equipped kitchen, and a dining table for an exceptional stay experience.",
+      "feature2": "Large Living Room",
+      "feature3": "Dining Table",
+      "feature4": "Free Wi-Fi"
+    },
+    "special": {
+      "title": "People with Special Needs",
+      "desc": "We provide special facilities for people with special needs to ensure a safe and comfortable stay, including vibrating alert devices, a smart watch, and an emergency cord inside the rooms.",
+      "feature1": "Equipped Facilities",
+      "feature2": "Alert Device",
+      "feature3": "Smart Watch",
+      "feature4": "Emergency Cord"
+    }
+  },
+  "tourism": {
+    "title": "Top Attractions | AYA INN",
+    "hero": {
+      "title": "Top Tourist Attractions in Jeddah",
+      "desc": "Discover the most beautiful destinations and attractions near AYA INN Serviced Apartments"
+    },
+    "card1": {
+      "title": "The Waterfront",
+      "desc": "The new Jeddah Waterfront is one of the most famous tourist and entertainment destinations in Jeddah, stretching over a large area overlooking the Red Sea and featuring a long promenade, green areas, family seating, and various restaurants and cafes."
+    },
+    "card2": {
+      "title": "Al-Balad",
+      "desc": "Al-Balad district is known as the historic heart of Jeddah, characterized by its old alleys and traditional Hijazi houses with their famous wooden roshan windows."
+    },
+    "card3": {
+      "title": "King Fahd Fountain",
+      "desc": "King Fahd Fountain is considered one of Jeddah's most famous landmarks and the tallest water fountain in the world, with a water jet height exceeding 300 meters."
+    },
+    "card4": {
+      "title": "Al-Rahma Mosque",
+      "desc": "Al-Rahma Mosque is known as the floating mosque because it was built over the surface of the Red Sea, featuring a calm view and stunning Islamic design."
+    },
+    "card5": {
+      "title": "Fakieh Aquarium",
+      "desc": "Fakieh Aquarium is considered one of the best entertainment places for families and children, featuring many types of marine creatures and enjoyable dolphin shows."
+    },
+    "card6": {
+      "title": "Mecca Gate",
+      "desc": "Mecca Gate is one of the old historic gates that used to surround the city of Jeddah, and today it is one of the most important heritage landmarks in historic Jeddah."
+    },
+    "card7": {
+      "title": "Obhur Area",
+      "desc": "Obhur Area is considered one of the most beautiful coastal areas north of Jeddah, famous for its private beaches, marine activities, and luxury resorts."
+    },
+    "card8": {
+      "title": "Tayebat Museum",
+      "desc": "Tayebat Museum is one of the most important museums in Jeddah, showcasing Islamic heritage and ancient civilizations in a distinctive style."
+    }
+  },
+  "blog": {
+    "title": "Blog | AYA INN",
+    "hero": {
+      "title": "Discover a Different Stay Experience",
+      "desc": "Welcome to the AYA INN blog, where we share the best tips on accommodation and travel, the top tourist destinations in Jeddah, and everything that makes your trip more comfortable and enjoyable."
+    },
+    "featured": {
+      "tag": "Featured Article",
+      "title": "How to Choose the Right Serviced Apartment for Your Stay?",
+      "desc": "Choosing your accommodation is one of the most important factors for a successful trip, especially if you're looking for comfort, privacy and integrated services.\n\nBefore booking, make sure to check the location, cleanliness level, availability of basic facilities, internet speed, and proximity to important destinations.\n\nAt AYA INN Serviced Apartments, we offer an integrated stay experience that combines comfortable spaces, modern design, and a strategic location within Jeddah.",
+      "feature1": "Prime Location",
+      "feature2": "Free Internet",
+      "feature3": "High Comfort",
+      "feature4": "Complete Privacy",
+      "cta": "Book Your Stay"
+    },
+    "posts": {
+      "subtitle": "Blog Articles",
+      "title": "Everything You Need for an Outstanding Stay"
+    },
+    "post1": {
+      "tag": "Accommodation",
+      "title": "How to Choose the Right Serviced Apartment?",
+      "desc": "Choosing the right apartment starts with identifying your needs, such as location, number of rooms, level of privacy, availability of basic facilities and ease of access.\n\nIt's always best to choose a place that offers integrated services such as fast internet, daily cleaning and parking to ensure a more comfortable stay."
+    },
+    "post2": {
+      "tag": "Tourism",
+      "title": "Best Destinations Near AYA INN",
+      "desc": "The serviced apartments are located in a spot that provides easy access to the most important places in Jeddah such as the Waterfront, Obhur area and famous tourist attractions.\n\nPlan your day ahead to make the most of your trip time."
+    },
+    "post3": {
+      "tag": "Families",
+      "title": "A Comfortable Stay for Families",
+      "desc": "Choosing a suitable space for the family helps make the stay calmer and more flexible.\n\nFamily suites provide more space and a more comfortable travel experience."
+    },
+    "post4": {
+      "tag": "Services",
+      "title": "Why Do Many Prefer Serviced Apartments?",
+      "desc": "Because they combine the comfort of home with hotel services such as cleaning, continuous support and modern facilities.\n\nAn ideal solution for both long and short visits."
+    },
+    "post5": {
+      "tag": "Travel",
+      "title": "Tips Before Traveling to Jeddah",
+      "desc": "Book early, prepare your schedule, and choose accommodation close to the places you plan to visit to reduce travel time.\n\nAdvance preparation makes the trip easier."
+    },
+    "post6": {
+      "tag": "Comfort",
+      "title": "How to Get a More Comfortable Stay?",
+      "desc": "Choose a suitable room and make use of the available facilities such as internet and spacious areas.\n\nComfort starts with choosing the right place to stay."
+    },
+    "tips": {
+      "subtitle": "Stay Tips",
+      "title": "Make the Most of Your Trip"
+    },
+    "tip1": {
+      "title": "Choose Your Accommodation Location Carefully",
+      "desc": "Make sure to choose a place close to services and important landmarks to reduce travel time and increase the comfort of your trip."
+    },
+    "tip2": {
+      "title": "Plan to Book Early",
+      "desc": "Booking early gives you more options and a chance to get the best prices."
+    },
+    "tip3": {
+      "title": "Take Advantage of the Facilities",
+      "desc": "Having a kitchen, internet service and parking makes the stay more flexible and comfortable."
+    },
+    "tip4": {
+      "title": "Prepare Your Trip Schedule",
+      "desc": "Identify the places you want to visit to enjoy every day of your stay."
+    },
+    "why": {
+      "subtitle": "Why AYA INN",
+      "title": "A Stay Experience Combining Comfort and Luxury",
+      "desc": "We strive to provide an integrated stay experience that offers the comfort, privacy and services that guests need throughout their stay.",
+      "item1": "Strategic Location",
+      "item2": "Professional Service",
+      "item3": "Integrated Facilities",
+      "item4": "Continuous Support"
+    },
+    "faq": {
+      "subtitle": "Frequently Asked Questions",
+      "title": "Everything You Need to Know"
+    },
+    "faq1": {
+      "q": "Is there free Wi-Fi?",
+      "a": "Yes, free internet connection is available throughout all hotel facilities."
+    },
+    "faq2": {
+      "q": "Is there parking available?",
+      "a": "We provide free and comfortable parking for guests."
+    },
+    "faq3": {
+      "q": "Can I book for long periods?",
+      "a": "Yes, both short and long stay options are available."
+    },
+    "faq4": {
+      "q": "Is the location close to attractions?",
+      "a": "The hotel is located in a spot that provides easy access to the most important destinations in Jeddah."
+    }
+  },
+  "contact": {
+    "title": "Contact Us | AYA INN",
+    "hero": {
+      "desc": "We are happy to respond to all your inquiries and serve you anytime"
+    },
+    "info": {
+      "email": "Email",
+      "phone": "Phone Number",
+      "address": "Address",
+      "address_value": "Jeddah - Al Marwah District - Prince Majed Intersection"
+    },
+    "form": {
+      "title": "We'd Love to Hear From You",
+      "desc": "Fill out the form and we will get back to you as soon as possible.",
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "subject": "Subject",
+      "message": "Write your message",
+      "submit": "Send Request"
+    }
+  }
+}

@@ -1,0 +1,645 @@
+
+/* =========================================
+   ABOUT HOME
+========================================= */
+
+.about-home{
+
+    padding:140px 0;
+
+    background:#fff;
+
+}
+
+.about-home-grid{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:90px;
+
+    align-items:center;
+
+}
+
+.about-home-image{
+
+    overflow:hidden;
+
+    border-radius:40px;
+
+    box-shadow:0 20px 60px rgba(0,0,0,.12);
+
+}
+
+.about-home-image img{
+
+    width: 100%;
+
+    height: 800px;
+
+    object-fit:cover;
+
+    transition:1s;
+
+}
+
+.about-home-image:hover img{
+
+    transform:scale(1.08);
+
+}
+.about-home-content span  {
+   font-size: 25px; 
+}
+
+.about-home-content h2{
+
+    font-size:60px;
+
+    line-height:1.3;
+
+    margin:20px 0 30px;
+
+    color:#111;
+
+    font-family:"Playfair Display", serif;
+
+}
+
+.about-home-content p{
+
+    color:#666;
+
+    line-height:2.2;
+
+    margin-bottom:35px;
+
+    font-size:17px;
+
+}
+
+.about-features{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:20px;
+
+    margin-bottom:40px;
+
+}
+
+.about-feature{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+
+    background:#f7f5f2;
+
+    padding:18px;
+
+    border-radius:18px;
+
+}
+
+.about-feature i{
+
+    width:50px;
+
+    height:50px;
+
+    background:#121627;
+
+    color:#c8a97e;
+
+    border-radius:50%;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+}
+
+/* =========================================
+   FEATURED ROOMS
+========================================= */
+
+.featured-rooms{
+
+    padding:140px 0;
+
+    background:#f7f5f2;
+
+}
+
+.featured-room-main{
+
+    background:white;
+
+    border-radius:35px;
+
+    overflow:hidden;
+
+    display:grid;
+
+    grid-template-columns:1.2fr 1fr;
+
+    box-shadow:0 15px 50px rgba(0,0,0,.08);
+
+    margin-top:70px;
+
+}
+
+.featured-room-image img{
+
+    width:100%;
+
+    height:100%;
+
+  
+
+}
+
+.featured-room-content{
+
+    padding:50px;
+
+}
+
+.room-tag{
+
+    display:inline-block;
+
+    background:#c8a97e;
+
+    color:white;
+
+    padding:10px 22px;
+
+    border-radius:30px;
+
+    margin-bottom:25px;
+
+}
+
+.featured-room-content h3{
+
+    font-size:42px;
+
+    margin-bottom:20px;
+
+    font-family:"Playfair Display", serif;
+
+}
+
+.featured-room-content p{
+
+    line-height:2.1;
+
+    color:#666;
+
+    margin-bottom:30px;
+
+}
+
+.featured-room-features{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:15px;
+
+    margin-bottom:35px;
+
+}
+
+.featured-room-features span{
+
+    background:#f7f5f2;
+
+    padding:12px 18px;
+
+    border-radius:50px;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+}
+
+.featured-room-features i{
+
+    color:#c8a97e;
+
+}
+
+.featured-rooms-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:30px;
+
+    margin-top:40px;
+
+}
+
+.featured-room-card{
+
+    position:relative;
+
+    overflow:hidden;
+
+    border-radius:30px;
+
+    height:420px;
+
+}
+
+.featured-room-card img{
+
+    width:100%;
+
+    height:100%;
+
+    object-fit:cover;
+
+    transition:1s;
+
+}
+
+.featured-room-card:hover img{
+
+    transform:scale(1.08);
+
+}
+
+.featured-room-overlay{
+
+    position:absolute;
+
+    inset:0;
+
+    background:linear-gradient(
+        to top,
+        rgba(0,0,0,.85),
+        rgba(0,0,0,.15)
+    );
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:flex-end;
+
+    padding:35px;
+
+}
+
+.featured-room-overlay h3{
+
+    color:white;
+
+    font-size:30px;
+
+    margin-bottom:15px;
+
+}
+
+.featured-room-overlay a{
+
+    color:white;
+
+    font-weight:600;
+
+}
+
+/* =========================================
+   SERVICES MODERN
+========================================= */
+
+.services-modern{
+
+    padding:140px 0;
+
+    background:#fff;
+
+}
+
+.services-modern-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:30px;
+
+    margin-top:70px;
+
+}
+
+.service-modern-card{
+
+    background:#121627;
+
+    color:white;
+
+    padding:50px 35px;
+
+    border-radius:30px;
+
+    text-align:center;
+
+    transition:.4s;
+
+    position:relative;
+
+    overflow:hidden;
+
+}
+
+.service-modern-card::before{
+
+    content:"";
+
+    position:absolute;
+
+    top:0;
+    right:0;
+
+    width:100%;
+
+    height:4px;
+
+    background:#c8a97e;
+
+    transform:scaleX(0);
+
+    transition:.4s;
+
+}
+
+.service-modern-card:hover::before{
+
+    transform:scaleX(1);
+
+}
+
+.service-modern-card:hover{
+
+    transform:translateY(-10px);
+
+}
+
+.service-modern-card i{
+
+    font-size:55px;
+
+    color:#c8a97e;
+
+    margin-bottom:25px;
+
+}
+
+.service-modern-card h3{
+
+    font-size:24px;
+
+    margin-bottom:15px;
+
+}
+
+.service-modern-card p{
+
+    color:#cfcfcf;
+
+    line-height:2;
+
+}
+
+
+
+/* =========================================
+   HOTEL GALLERY
+========================================= */
+
+.hotel-gallery{
+
+    padding:140px 0;
+
+    background:#f7f5f2;
+
+}
+
+.gallery-grid{
+
+    display:grid;
+
+    grid-template-columns:2fr 1fr 1fr;
+
+    grid-template-rows:320px 320px;
+
+    gap:25px;
+
+    margin-top:70px;
+
+}
+
+.gallery-item{
+
+    overflow:hidden;
+
+    border-radius:25px;
+
+    position:relative;
+
+    cursor:pointer;
+
+}
+
+.gallery-item img{
+
+    width:100%;
+
+    height:100%;
+
+    object-fit:cover;
+
+    transition:1s;
+
+}
+
+.gallery-item:hover img{
+
+    transform:scale(1.08);
+
+}
+
+.gallery-large{
+
+    grid-row:span 2;
+
+}
+
+.gallery-item::after{
+
+    content:"";
+
+    position:absolute;
+
+    inset:0;
+
+    background:rgba(0,0,0,.15);
+
+    opacity:0;
+
+    transition:.4s;
+
+}
+
+.gallery-item:hover::after{
+
+    opacity:1;
+
+}
+
+/* =========================================
+   HOME NEW SECTIONS RESPONSIVE
+========================================= */
+
+@media(max-width:992px){
+
+    .about-home-grid{
+
+        grid-template-columns:1fr;
+
+        gap:50px;
+
+    }
+
+    .featured-room-main{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .services-modern-grid{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+    .gallery-grid{
+
+        grid-template-columns:1fr 1fr;
+
+        grid-template-rows:auto;
+
+    }
+
+    .gallery-large{
+
+        grid-row:auto;
+
+        grid-column:span 2;
+
+        height:400px;
+
+    }
+
+}
+
+@media(max-width:768px){
+
+    .about-home{
+
+        padding:90px 0;
+
+    }
+
+    .featured-rooms{
+
+        padding:90px 0;
+
+    }
+
+    .services-modern{
+
+        padding:90px 0;
+
+    }
+
+    .hotel-gallery{
+
+        padding:90px 0;
+
+    }
+
+    .about-home-content h2{
+
+        font-size:38px;
+
+    }
+
+    .featured-room-content h3{
+
+        font-size:32px;
+
+    }
+
+    .about-features{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .featured-rooms-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .services-modern-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .gallery-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .gallery-large{
+
+        grid-column:auto;
+
+        height:300px;
+
+    }
+
+    .gallery-item{
+
+        height:250px;
+
+    }
+
+}
+
+
+
+
+
